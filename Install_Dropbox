@@ -1,0 +1,9 @@
+AIM : INSTALL DROPBOX IN BACKTRACK
+
+1  Download dropbox from : https://www.dropbox.com/en/install?os=lnx
+2  In terminal type : apt-get install libnautilus-extension1
+3  Go to download location of dropbox : cd ../Downloads/ 
+4  In terminal type (for 32 bit) : dpkg -i dropbox_1.6.0_i386.deb 
+5  In terminal type to start dropbox : dropbox start -i
+
+#Checking for proxy settings if you are proxy server.
